@@ -1,0 +1,90 @@
+.calculatrice h2{
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: purple;
+    padding: 5px;
+    width: 220px;
+    text-align: center;
+    margin: 10px;
+}
+
+.calculatrice label{
+    margin-left: 10px;
+    color: darkslateblue;
+}
+
+.data{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.data input{
+    border-radius: 5px;
+}
+
+.bouton{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.resultat{
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: orange;
+    padding: 5px;
+    width: 115px;
+    margin: 10px;
+}
+
+.tips{
+    display: flex;
+    gap: 5px;
+}
+
+.tips1{
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: gold;
+    padding-left: 5px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 115px;
+}
+
+.tips1 h3{
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.tips1 p{
+    color: darkcyan;
+    margin-left: 3px;
+}
+
+.tips2{
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: green;
+    padding-left: 5px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 240px;
+}
+
+.tips2 h3{
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.tips2 p{
+    color: darkolivegreen;
+    margin-left: 3px;
+}

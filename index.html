@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="calculatrice">
+        <h2>Calculatrice d'IMC</h2>
+        
+        <label for="poid">Calculer votre IMC</label>
+
+        <div class="data">
+            <input type="number" id="poid" placeholder="Poids">
+            <input type="number" id="taille" placeholder="Taille">
+
+            <button class="bouton" onclick="calculerIMC()">Calculer</button>
+        </div>
+
+        <div class="resultat">
+
+            <span>Votre IMC :</span>
+            <span id="IMC"></span>
+
+        </div>
+
+        <div class="tips">
+            <div class="tips1">
+                <h3>Bon a savoir</h3>
+                <p>
+                    Moins de 18.5 : Trop faible<br>
+                    Entre 18.5 et 25 : Normal<br>
+                    Plus de 25 : Trop grand<br>
+                </p>
+            </div>
+
+            <div class="tips2">
+                <h3>Mode d'emploi</h3>
+                <p>
+                    Comment l'utiliser ?<br><br>
+                    Entrez votre poids (en KG) dans la première case.<br><br>
+                    Dans la deuxième case entrez votre taille (en mètre)<br><br>
+                    Exemple : Poid : 80 Taille : 1.75
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
